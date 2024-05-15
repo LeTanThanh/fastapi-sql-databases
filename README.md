@@ -2,6 +2,12 @@
 
 - Reference: https://fastapi.tiangolo.com/tutorial/sql-databases
 
+- Install packages
+
+```bash
+pip3 install sqlalchemy
+```
+
 - Run server
 
 ```bash

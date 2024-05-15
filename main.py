@@ -12,3 +12,8 @@ app = FastAPI()
     |_  models.py
     |_  schemas.py
 """
+
+# Install SQLAlchemy
+"""
+pip3 install sqlalchemy
+"""
