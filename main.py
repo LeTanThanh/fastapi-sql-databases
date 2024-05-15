@@ -17,3 +17,5 @@ app = FastAPI()
 """
 pip3 install sqlalchemy
 """
+
+# Create the SQLAlchemy parts
