@@ -21,3 +21,5 @@ pip3 install sqlalchemy
 # Create the SQLAlchemy parts
 
 # Create the database models
+
+# Create initial Pydantic models / schemas
