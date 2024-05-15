@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-from item import ItemResponse
+from .item import ItemResponse
 
 class BaseUser(BaseModel):
   email: str
@@ -8,10 +8,9 @@ class BaseUser(BaseModel):
 class UserCreateParam(BaseUser):
   password: str
 
-class User(BaseUser):
+class UserResponse(BaseUser):
   id: int
-  owner_id: int
   items: list[ItemResponse] = []
 
   class Config:
-    orm_mode = True
+    from_attributes = True
