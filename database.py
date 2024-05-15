@@ -14,3 +14,5 @@ SessionLocal = sessionmaker(
   autoflush= False,
   autocommit = False
 )
+
+BaseORM = declarative_base()
